@@ -1,14 +1,24 @@
-# Overview
+# CoDAT: Code Comprehension and Maintenance via Effective Documentation
 
-Code Comprehension and Maintenance via Effective Documentation
+Code Comprehension and Maintenance via Effective Documentation, or CoDAT, creates a narrative framework to engage developers in sustainable code documentation practices. CoDAT implements this vision by 
 
-# Table of Contents
+* **Change flagging**: The developer is alerted when a change occurs in code that needs to be reflected in its documentation.
+* **Consistency Checking**: CoDAT has built in integrations to allow a 3rd party LLM to perform a "soft" check on if the code functionality matches the document's specifications.
+* **Completeness Sieve**: CoDAT serves as a documentation sieve by allowing developers the ability to pinpoint syntax changes at a code sketch level.
 
-PLACEHOLDER
+## Implementation
 
-# Installation
+CoDAT is currently implemented as an Intellij IDEA plugin. 
 
-PLACEHOLDER
+## Benefits in Cybersecurity
+
+* Provides the ability for cybersecurity professionals to track what code changes frequently versus what code is stable. 
+* Based on the stability, the code can then be designated as needing frequent or periodic reviews.
+
+## Benefits in Company Liability
+
+* Code reviews may only focus on if the code works and not necessarily if the documentation is accurate.
+* As with cybersecurity, CoDAT can provide a stability verification to allow companies to have a way of externally validating their code.
 
 # Biographies
 
@@ -28,6 +38,3 @@ Mr. Oh has earned over 115 certifications in fields ranging from computer scienc
 
 Mr. Oh holds a Bachelor of Science degree in Applied Mathematics from American Military University and an Associate of Science degree in Mathematics from Anne Arundel Community College.
 
-# Theory
-
-PLACEHOLDER
