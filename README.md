@@ -30,6 +30,14 @@ Paul's research is in software engineering, formal methods, and distributed comp
 
 Paul has previously held faculty positions at Florida International University, Northeastern University, and the American University of Beirut.  He was also a Visiting Scientist and Research Affiliate at the MIT Computer Science and Artificial Intelligence Laboratory (CSAIL).
 
+## Mr. Nathaniel Oh
+
+Mr. Oh has over 10 of experience working in cybersecurity in both industry and academia settings. Mr. Oh currently is pursuing his PhD in Computer and Cyber Sciences at Augusta University while working as a Vulnerability Research SETA for ARPA-H. Prior to pursuing his doctorate, Mr. Oh worked as a Senior Cybersecurity Professional at Tyler Technologies where he assisted clients in securing their network and assessed their production binaries and environments. Mr. Oh has given technical talks and has taught advanced computer science and cyber security concepts to both industry professionals and academic peers. 
+
+Mr. Oh has earned over 115 certifications in fields ranging from computer science, cybersecurity, and machine learning. He holds certifications from several industry leaders such as Microsoft, Cisco, IBM, CompTIA and OffSec. His certifications include the OSCE3, CASP+, CCNA, and many more. 
+
+Mr. Oh holds a Bachelor of Science degree in Applied Mathematics from American Military University and an Associate of Science degree in Mathematics from Anne Arundel Community College.
+
 ## Mr. Anas Obeidat
 
 Anas Obeidat is a seasoned software engineer with over 13 years of experience specializing in Java tools and technologies. He currently serves as a Senior Developer at Avanos Medical, focusing on the EtQ Reliance framework since March 2020. Anas has a strong background in both front and backend development, expertly handling Java, Python, JavaScript, HTML, CSS, and various databases such as Oracle, DB2, SQL Server, and MySQL.
@@ -41,14 +49,6 @@ Previously, Anas has demonstrated significant impact in roles such as a Web Deve
 His technical expertise is complemented by strong problem-solving skills, evident from his successful development and deployment of a CRM system for telemarketing companies, which led to a notable increase in lead conversion rates from 20% to 60%. Anas is also proficient in Agile and Scrum methodologies, ensuring timely and effective project delivery.
 
 Anas is certified as a Sun Certified Web Component Developer (SCWCD) and a Sun Certified Programmer for the Java 2 Platform (SCJP), underscoring his deep knowledge and expertise in the field. His professional journey reflects a commitment to excellence and a deep understanding of technological solutions that enhance business operations and user experiences.
-
-## Mr. Nathaniel Oh
-
-Mr. Oh has over 10 of experience working in cybersecurity in both industry and academia settings. Mr. Oh currently is pursuing his PhD in Computer and Cyber Sciences at Augusta University while working as a Vulnerability Research SETA for ARPA-H. Prior to pursuing his doctorate, Mr. Oh worked as a Senior Cybersecurity Professional at Tyler Technologies where he assisted clients in securing their network and assessed their production binaries and environments. Mr. Oh has given technical talks and has taught advanced computer science and cyber security concepts to both industry professionals and academic peers. 
-
-Mr. Oh has earned over 115 certifications in fields ranging from computer science, cybersecurity, and machine learning. He holds certifications from several industry leaders such as Microsoft, Cisco, IBM, CompTIA and OffSec. His certifications include the OSCE3, CASP+, CCNA, and many more. 
-
-Mr. Oh holds a Bachelor of Science degree in Applied Mathematics from American Military University and an Associate of Science degree in Mathematics from Anne Arundel Community College.
 
 # Installation
 
