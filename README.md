@@ -1,4 +1,44 @@
+# Introduction
+
+## Why Document Code? 
+
+* Code is notoriously difficult to understand
+* Huge "semantic gap" between what the code looks like and what it actually does at runtime. This gap is responsible for:
+    * Bugs, including security bugs which lead to exploits
+    * Failures in deployed systems
+    * Cost overruns/missed deadlines/project cancellation
+
+## The Traditional Code Review
+ 
+According to the landmark study, "Comparing the Effectiveness of Software Testing Strategies" by Basili and Selby:
+
+> With the professional programmers, code reading detected more software faults and had a higher fault detection rate than did functional or structural testing.”
+
+Thus, code reviews themselves serve an important role in secure software development. However, the implementation can severely impact the effectiveness of a code review. 
+
+## How Documentation Supports Code Reviews
+
+Based on the paper, "Comments on Comments: Where Code Review and Documentation Meet" by Rao, et. al. We observe the following: 
+
+* There is a parallel between documentation and code reviews. 
+* Oftentimes, it's been found that strong documentation aids in a strong code review.
+
+In addition, according to "Code Reviews Do Not Find Bugs" by Czerwonka, et. al. There are two key factors in where current code reviews fall short: 
+
+* Current code reviews are informal and asynchronous
+* Commenting and documentation standards are loosely defined and heavily influenced by reviewer’s experience
+
+There exists a need to approach the intersection of Code Reviews and Documentation in both a strategic and measured way. 
+
 # CoDAT: Code Comprehension and Maintenance via Effective Documentation
+
+## The Code Review Vision
+
+1. We need a way to formalize small-scale code reviews that support a larger base of code. 
+2. Frequent and dynamic is better than formal and static.
+3. Model behavior based off of source control systems such as Git or Subversion. 
+
+## The Components of CoDAT
 
 Code Comprehension and Maintenance via Effective Documentation, or CoDAT, creates a narrative framework to engage developers in sustainable code documentation practices. CoDAT implements this vision by 
 
@@ -6,19 +46,43 @@ Code Comprehension and Maintenance via Effective Documentation, or CoDAT, create
 * **Consistency Checking**: CoDAT has built in integrations to allow a 3rd party LLM to perform a "soft" check on if the code functionality matches the document's specifications.
 * **Completeness Sieve**: CoDAT serves as a documentation sieve by allowing developers the ability to pinpoint syntax changes at a code sketch level.
 
-## Implementation
+## How CoDAT Supports the Code Review Vision
 
-CoDAT is currently implemented as an Intellij IDEA plugin. 
+1. *We need a way to formalize frequent small-scale code reviews that support a larger base of code.*
 
-## Benefits in Cybersecurity
+CoDAT tracks both design and code changes, allowing developers the ability to monitor not only the code’s performance but also its expectations. 
+
+For example, if the program specifications change but the code is not updated, the outdated function may provide incorrect parameters to a callee. This can cause severe problems that may be hard to detect without CoDAT. 
+
+2. *Frequent and dynamic is better than formal and static.*
+
+CoDAT allows for developers to asynchronously sign areas whose documentation and code are invariant. 
+
+If areas of signed code change, CoDAT can then alert the user of the design or code change. Allowing developers the ability to solely focus on actively changing code or documentation.
+
+If changed code or documentation impacts other areas, CoDAT can implement signature detection to determine the area and scope of impact within a program.
+
+3. *Model behavior based off of source control systems such as Git or Subversion.*
+
+CoDAT integrates existing Source Control Systems to provide extensive tracking with both an individual developer and an asynchronous team.
+
+This allows CoDAT to be scaled to match the need within an arbitrary program or development environment.
+
+# Applications of CoDAT
+
+## Cybersecurity
 
 * Provides the ability for cybersecurity professionals to track what code changes frequently versus what code is stable. 
 * Based on the stability, the code can then be designated as needing frequent or periodic reviews.
 
-## Benefits in Company Liability
+## Mitigating Company Liability
 
 * Code reviews may only focus on if the code works and not necessarily if the documentation is accurate.
 * As with cybersecurity, CoDAT can provide a stability verification to allow companies to have a way of externally validating their code.
+
+## Reverse Engineering
+
+* CoDAT can be refactored to monitor basic blocks and pseudocode similar to how IDA syncs function prototype signatures with disassembled opcodes.
 
 # Biographies
 
