@@ -84,36 +84,6 @@ This allows CoDAT to be scaled to match the need within an arbitrary program or 
 
 * CoDAT can be refactored to monitor basic blocks and pseudocode similar to how IDA syncs function prototype signatures with disassembled opcodes.
 
-# Biographies
-
-## Dr. Paul Attie
-
-Paul Attie is a Professor of Computer Science at Augusta University. He received a Ph.D. in Computer Science from the University of Texas at Austin in 1995.
-
-Paul's research is in software engineering, formal methods, and distributed computing. He is currently interested in methods for the effective documentation and analysis of code.  He also works on devising efficient methods for specifying, designing, and reasoning about the behavior of large distributed and concurrent software systems. In particular, he showed that the safety, liveness, and deadlock-freedom of large concurrent programs can be established by reasoning about small sets (2 or 3) of component processes at a time, thereby avoiding state-explosion.
-
-Paul has previously held faculty positions at Florida International University, Northeastern University, and the American University of Beirut.  He was also a Visiting Scientist and Research Affiliate at the MIT Computer Science and Artificial Intelligence Laboratory (CSAIL).
-
-## Mr. Nathaniel Oh
-
-Mr. Oh has over 10 of experience working in cybersecurity in both industry and academia settings. Mr. Oh currently is pursuing his PhD in Computer and Cyber Sciences at Augusta University while working as a Vulnerability Research SETA for ARPA-H. Prior to pursuing his doctorate, Mr. Oh worked as a Senior Cybersecurity Professional at Tyler Technologies where he assisted clients in securing their network and assessed their production binaries and environments. Mr. Oh has given technical talks and has taught advanced computer science and cyber security concepts to both industry professionals and academic peers. 
-
-Mr. Oh has earned over 115 certifications in fields ranging from computer science, cybersecurity, and machine learning. He holds certifications from several industry leaders such as Microsoft, Cisco, IBM, CompTIA and OffSec. His certifications include the OSCE3, CASP+, CCNA, and many more. 
-
-Mr. Oh holds a Bachelor of Science degree in Applied Mathematics from American Military University and an Associate of Science degree in Mathematics from Anne Arundel Community College.
-
-## Mr. Anas Obeidat
-
-Anas Obeidat is a seasoned software engineer with over 13 years of experience specializing in Java tools and technologies. He currently serves as a Senior Developer at Avanos Medical, focusing on the EtQ Reliance framework since March 2020. Anas has a strong background in both front and backend development, expertly handling Java, Python, JavaScript, HTML, CSS, and various databases such as Oracle, DB2, SQL Server, and MySQL.
-
-His educational background includes a Master’s Degree in Computer Science from MUM University, obtained between 2010 and 2013, and earlier studies at Jami'at Al-Balqa Al-Tatbiqiyya, where he earned both his BSc and another Master's in Computer Science by 2009. Currently, Anas is pursuing his PhD in Computer and Cyber Sciences at Augusta University.
-
-Previously, Anas has demonstrated significant impact in roles such as a Web Developer at Excellence through Quality (EtQ), where he improved the EtQ Reliance system, and a Senior Developer at United Airlines, where he developed solutions for merging applications in the Safety and Security department using the EtQ Reliance framework.
-
-His technical expertise is complemented by strong problem-solving skills, evident from his successful development and deployment of a CRM system for telemarketing companies, which led to a notable increase in lead conversion rates from 20% to 60%. Anas is also proficient in Agile and Scrum methodologies, ensuring timely and effective project delivery.
-
-Anas is certified as a Sun Certified Web Component Developer (SCWCD) and a Sun Certified Programmer for the Java 2 Platform (SCJP), underscoring his deep knowledge and expertise in the field. His professional journey reflects a commitment to excellence and a deep understanding of technological solutions that enhance business operations and user experiences.
-
 # Installation
 
 ## Step 1: Access the Plugin Repository
